@@ -3,7 +3,7 @@
   function ffToObj($name, $type, $path = YOUR_PATH, $delim = '|') {
     /*
       Flat File to Object
-      -Creates an array from a delimited file (.txt, .csv, .tsv, etc.). Assumes headers present in first line.
+      -Creates an object from a delimited file (.txt, .csv, .tsv, etc.). Assumes headers present in first line.
         required:
           @ $name = any delimited file name
           @ $type = contents of file data, i.e. products, orders, customers, widgets, etc. (MUST correspond to a directory where the file in $name is located.)
