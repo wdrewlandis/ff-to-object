@@ -37,7 +37,7 @@
     }
     $newArr[$type] = (object) $newArr[$type];
     
-    //Return the object
+    //Return an object.
     return (object) $newArr;     
     
   }
